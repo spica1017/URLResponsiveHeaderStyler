@@ -1,0 +1,7 @@
+#header {
+    background-color: white;
+}
+
+#header.red {
+    background-color: red;
+}
