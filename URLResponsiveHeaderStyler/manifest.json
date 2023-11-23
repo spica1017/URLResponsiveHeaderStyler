@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "URL String Checker",
-  "description": "This extension checks if a certain string is in the URL and changes the background color of the header if it is.",
+  "name": "URL文字列チェッカー",
+  "description": "この拡張機能は、特定の文字列がURLに含まれているかどうかをチェックし、含まれている場合はヘッダーの背景色を変更します。",
   "version": "1.0",
   "permissions": [
     "activeTab",
