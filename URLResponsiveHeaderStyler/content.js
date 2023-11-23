@@ -1,8 +1,10 @@
-// Listen for messages from the popup
+// ポップアップからのメッセージを待ち受ける
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
-  // Check if the message is to change color
+  // メッセージが色を変更するものかどうかを確認する
   if (request.message === "change_color") {
-    // Change the background color of the element with id 'header'
+    // idが'header'の要素の背景色を変更する
     document.getElementById('header').style.backgroundColor = 'red';
+    // headerタグの背景色も変更する
+    document.querySelector('header').style.backgroundColor = 'red';
   }
 });
